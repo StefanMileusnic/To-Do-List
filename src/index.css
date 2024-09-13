@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(78, 63, 63);
+}
+
+.to-do-list {
+  font-family: "Courier New", Courier;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin: 10px 30px;
+}
+
+.add-btn {
+  background-color: rgb(29, 168, 29);
+  height: 60px;
+}
+.add-btn:hover {
+  background-color: rgba(29, 168, 29, 0.514);
+}
+
+.del-btn {
+  background-color: red;
+}
+.del-btn:hover {
+  background-color: rgba(255, 0, 0, 0.418);
+}
+
+.up-btn,
+.down-btn {
+  background-color: rgb(28, 28, 189);
+}
+.up-btn:hover,
+.down-btn:hover {
+  background-color: rgba(28, 28, 189, 0.384);
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.del-btn,
+.up-btn,
+.down-btn {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
